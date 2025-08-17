@@ -93,7 +93,7 @@ text
 
 ## APK
 
-An APK file of the app in action is included in the submission folder.  
+An APK file of the app in action cannot be included in the submission folder due to the 10MB limit, however I have published a GitHub release for your reference. 
 
 ---
 
