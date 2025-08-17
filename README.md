@@ -1,97 +1,91 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+## Event Explorer – College Crave App Developer Intern Coding Assignment
+# Overview
+Event Explorer is a mini React Native application developed as part of the College Crave App Developer Intern coding round. The app demonstrates practical skills in authentication UI, API integration, HTTP networking, data display, and navigation for Android (and easily expandable to iOS).
 
-# Getting Started
+# Features
+Login and Signup UI:
+Modern, user-friendly forms with field validation and navigation.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+# API Integration:
+Fetches real event data from a live public endpoint (GitHub Gist).
 
-## Step 1: Start Metro
+# Event List Page:
+Displays upcoming events in a structured list, fetched from the API.
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+# Navigation:
+Seamless screen navigation using React Navigation library.
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+# Robust Error Handling:
+Shows activity indicators during loading; displays error messages if network/API fails.
 
-```sh
-# Using npm
-npm start
+# API Endpoint (Live Example Used)
+All event data is obtained via HTTP fetch from the following public endpoint:
 
-# OR using Yarn
-yarn start
-```
+# text
+https://gist.githubusercontent.com/kushagrakartikeye/859c6897af26b5ed72e904d5670e3fbe/raw/23499d95c20f60595078419ac2d0873a471fcc13/events.json
+This satisfies the assignment’s “API integration” requirement.
 
-## Step 2: Build and run your app
+# How to Run
+Install Dependencies:
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+bash
+npm install
+Start Metro Bundler:
 
-### Android
+bash
+npx react-native start
+Run the App on Android Emulator or Device:
 
-```sh
-# Using npm
-npm run android
+bash
+npx react-native run-android
+Screenshots (Attach these in your submission)
+Attach clear screenshots showing:
 
-# OR using Yarn
-yarn android
-```
+Login Screen
+(default start screen; blank fields or filled)
 
-### iOS
+Signup Screen
+(after tapping "Sign up" on Login)
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+Event List Screen
+(after successful login – must show at least 2–3 fetched events)
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+Event List With Loading Indicator
+(optional, quick screenshot during API fetch to highlight responsiveness)
 
-```sh
-bundle install
-```
+Event List With Error Message
+(optional, temporarily disconnect internet, show error message for bonus marks)
 
-Then, and every time you update your native dependencies, run:
+API Endpoint in Browser
+(show your live gist URL returning the JSON for extra clarity—bonus but not mandatory)
 
-```sh
-bundle exec pod install
-```
+Project Structure (Key Files)
+App.tsx – Root file for navigation setup.
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+screens/LoginScreen.tsx – Login page UI and logic.
 
-```sh
-# Using npm
-npm run ios
+screens/SignupScreen.tsx – Signup page UI and logic.
 
-# OR using Yarn
-yarn ios
-```
+screens/EventListScreen.tsx – Fetches and displays events from API.
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+README.md – This document.
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+# Notable Technologies
+React Native v0.81.0
 
-## Step 3: Modify your app
+TypeScript
 
-Now that you have successfully run the app, let's make changes!
+@react-navigation/native for navigation stack
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+GitHub Gist as public REST API (for events)
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
+Notes for Reviewers
+This project is intentionally designed for code clarity, practical UI, and API integration demonstration.
 
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
+No credentials or registration required. Authentication is UI-only for demo purposes; can be hooked to any real backend in future.
 
-## Congratulations! :tada:
+API URL and event data can easily be swapped to a production endpoint.
 
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Contact
+Developed by Kushagra Kartikeye
+Email: kushagrakartikeye@gmail.com
