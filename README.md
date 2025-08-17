@@ -76,13 +76,17 @@ text
 
 ## Screenshots
 
-- Login Screen<img width="523" height="956" alt="image" src="https://github.com/user-attachments/assets/991df4e2-4856-4fd9-ba77-d9b7dfeb234f" />
+- Login Screen
+- <img width="523" height="956" alt="image" src="https://github.com/user-attachments/assets/991df4e2-4856-4fd9-ba77-d9b7dfeb234f" />
 
-- Signup Screen<img width="518" height="955" alt="image" src="https://github.com/user-attachments/assets/40378902-e641-4172-b5d1-ae551446c045" />
+- Signup Screen
+- <img width="518" height="955" alt="image" src="https://github.com/user-attachments/assets/40378902-e641-4172-b5d1-ae551446c045" />
 
-- Event List Screen (showing fetched events)<img width="1919" height="948" alt="image" src="https://github.com/user-attachments/assets/c025bc57-3476-439b-918e-5241cf48f534" />
+- Event List Screen (showing fetched events)
+- <img width="1919" height="948" alt="image" src="https://github.com/user-attachments/assets/c025bc57-3476-439b-918e-5241cf48f534" />
 
-- (Optional) Event Saved Confirmation (if implemented)<img width="514" height="958" alt="image" src="https://github.com/user-attachments/assets/05d77d26-733d-4b1e-9271-078cc6efa1d5" />
+- (Optional) Event Saved Confirmation (if implemented)
+- <img width="514" height="958" alt="image" src="https://github.com/user-attachments/assets/05d77d26-733d-4b1e-9271-078cc6efa1d5" />
 
 
 ---
